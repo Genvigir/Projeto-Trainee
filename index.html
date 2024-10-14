@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras Cafeinadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><button class="btnSobreNos" onclick="scrollToSobreNos()">
+                    <p>Sobre nós</p>
+                </button></li>
+            <li><button class="btnCafeteria" onclick="scrollToCafeteria()">
+                    <p>Cafeteria</p>
+                </button></li>
+        </ul>
+        <div class="logo">
+            <img src="./imagens/logo_escura.png" alt="Logo" class="logo-img">
+            <p>Palavras Cafeinadas</p>
+        </div>
+        <ul class="nav-links">
+            <li><button class="btnContato" onclick="scrollToContato()">
+                    <p>Contato</p>
+                </button></li>
+            <li>
+                <button class="btnTelefone">
+                    <p><img class="telefone" src="./imagens/telefone.png" alt="Telefone"
+                            class="iconeTelefone">19-999456792</p>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <!-- Nav -->
+
+    <!-- Header -->
+    <header>
+        <section class="cafeFundo">
+            <div>
+                <h1 class="TituloCafFund">Leia acompanhado de uma culinária de qualidade</h1>
+                <h2 class="SubCafFund">Aonde a paixão por livros e o amor por café sempre tem lugar à mesa</h2>
+                <button onclick="scrollToCafeteria()" class="btVenhaConhecer">
+                    <strong>Venha Conhecer</strong><img class="flecha" src="./imagens/flecha.png" alt="iconeFlecha">
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- Header -->
+
+    <!-- Sobre Nos -->
+    <section id="sobreNos" class="sobreN">
+        <div class="conteudo-sobreN">
+            <div class="texto-sobreN">
+                <div class="detsobre"><span class="testespan"></span>
+                    <h1 class="clah1">SOBRE NÓS</h1>
+                </div>
+                <p>A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um espaço aconchegante, contendo um
+                    ambiente moderno e um atendimento completo, nela é possível provar refeições saborosas e ler
+                    excelentes
+                    livros.</p>
+                <p>O sonho de Carolina era criar um espaço aonde pudesse unir seu amor por culinária e a enorme paixão
+                    por
+                    literatura, venha saber mais dessa jornada:</p>
+                <button onclick="scrollToContato()" class="btFaleConosco">
+                    <strong>Fale Conosco</strong><img class="flecha" src="./imagens/flecha.png" alt="iconeFlecha">
+                </button>
+            </div>
+            <div class="imagem-sobreN">
+                <img src="./imagens/Ft_Sobre_Nos.png" alt="Cafés em Circulos">
+            </div>
+        </div>
+    </section>
+    <!-- Sobre Nos-->
+    <div class="ajusteOnda">
+        <img src="imagens/CafeOnda.png" class="ondaCafe" alt="Onda de café">
+    </div>
+    <!-- Carrossel -->
+    <section id="Cafeteria" class="cafeteria">
+        <h1>CAFETERIA</h1>
+        <div class="carousel-container">
+            <div class="carousel" role="region" aria-label="Carrossel de cafeteria">
+                <div class="card">
+                    <img src="./imagens/Brigadeiro 1.png" alt="Brigadeiro De Capuccino">
+                    <h2>Brigadeiro De Capuccino</h2>
+                    <p>O brigadeiro de capuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                </div>
+                <div class="card">
+                    <img src="./imagens/bolo.png" alt="Bolo De Chocolate">
+                    <h2>Bolo De Chocolate</h2>
+                    <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteria, ele possui um recheio com...
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./imagens/pao de mel.png" alt="Pão De Mel">
+                    <h2>Pão De Mel</h2>
+                    <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
+                </div>
+                <div class="card">
+                    <img src="./imagens/sorvete.png" alt="sorvete de Café">
+                    <h2>Pão De Mel</h2>
+                    <p>O sorvete em versão de café pode ser aproveitado sozinho ou com um pedacinho de bolo no fim...
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="prev-btn" aria-label="Botão anterior">
+            &#10094;
+        </button>
+        <button class="next-btn" aria-label="Botão próximo">
+            &#10095;
+        </button>
+    </section>
+    <!-- Carrossel -->
+
+    <!-- Entre em Contato -->
+    <section id="Contato" class="contato-section">
+        <div class="detCont"><span class="tSpan"></span>
+            <h1 class="clah1">ENTRE EM CONTATO</h1></span>
+        </div>
+
+        <div class="container-contato">
+            <div class="contato-info-area">
+                <ul>
+                    <li><i class="phone"></i> <img src="imagens/tel.png" alt="Frame Telefone"> 19-991256972</li>
+                    <li><i class="envelope"></i> <img src="imagens/email.png" alt="Frame Email">contato@gmail.com</li>
+                    <li><i class="map-marker"></i> <img src="imagens/localizacao.png" alt="Frame Localizacao"> Av.
+                        Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</li>
+                    <li class="detForm"></li>
+                    <li><i class="instagram"></i> <img src="imagens/insta.png" alt="Frame Instagram">@palavrascafeinadas
+                    </li>
+                    <li><i class="facebook"></i> <img src="imagens/facebook.png" alt="Frame Facebook">Palavras
+                        Cafeinadas</li>
+                </ul>
+                <div class="logo-area">
+                    <img src="./imagens/logo_branca 2.png" alt="Logo Palavras Cafeinadas">
+                    <p>Palavras Cafeinadas</p>
+                </div>
+            </div>
+            <div class="formulario-contato">
+                <form action="#">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <button type="submit"><strong>ENVIAR MENSAGEM</strong><img class="flecha" src="./imagens/flecha.png"
+                            alt="iconeFlecha"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-media-section">
+        <h2>NOS ENCONTRE AQUI:</h2>
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="imagens/faceCont.png" alt="Facebook">
+            </a>
+            <a href="#" target="_blank">
+                <img src="imagens/instaCont.png" alt="Instagram">
+            </a>
+            <a href="#" target="_blank">
+                <img src="imagens/telCon.png" alt="Telefone">
+            </a>
+        </div>
+    </section>
+    <!-- Entre em Contato -->
+
+    <!-- Rodapé -->
+    <footer class="footer-contato">
+        <p>Desenvolvido por Unect Jr</p>
+        <p>Todos os direitos reservados ©</p>
+    </footer>
+    <!-- Rodapé -->
+
+    <script src="script.Js"></script>
+
+</body>
+
+</html>

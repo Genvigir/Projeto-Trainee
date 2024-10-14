@@ -1,0 +1,1044 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+/* NAV */
+
+.clah1 {
+    z-index: 1;
+    position: relative;
+}
+
+.detsobre {
+    width: fit-content;
+    height: fit-content;
+}
+
+.testespan {
+    width: 234px;
+    height: 28px;
+    background-color: #FBC9A8;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.tSpan {
+    width: 438px;
+    height: 28px;
+    background-color: #FBC9A8;
+    margin-top: 28px;
+    position: absolute;
+    left: 280px;
+}
+
+.detCont {
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #57290B;
+    padding: 20px 50px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.btnSobreNos {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: auto;
+    height: auto;
+    top: 39px;
+    left: 119px;
+    border-radius: 1px;
+}
+
+.btnSobreNos p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #F0F0F0;
+    white-space: nowrap;
+    border-bottom: 2px solid #B2784A;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.btnCafeteria {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: auto;
+    height: auto;
+    top: 39px;
+    left: 324px;
+    border-radius: 1px;
+}
+
+.btnCafeteria p {
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.8px;
+    text-align: left;
+    color: #F0F0F0;
+    white-space: nowrap;
+    border-bottom: 2px solid #B2784A;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.btnContato {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: auto;
+    height: auto;
+    top: 39px;
+    left: 324px;
+    border-radius: 1px;
+}
+
+.btnContato p {
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.8px;
+    text-align: left;
+    color: #F0F0F0;
+    white-space: nowrap;
+    border-bottom: 2px solid #B2784A;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.btnTelefone {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    width: auto;
+    height: auto;
+    top: 39px;
+    left: 324px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.btnTelefone p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #F0F0F0;
+    white-space: nowrap;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.telefone {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    top: 43px;
+    left: 1202px;
+    background-color: #8F542E;
+}
+
+.logo {
+    text-align: center;
+    color: #F0F0F0;
+    padding: 20px 0;
+}
+
+.logo-img {
+    width: 43px;
+    height: 54.86px;
+    top: 7px;
+    left: 698px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.logo p {
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.8px;
+    text-align: left;
+    color: #F0F0F0;
+}
+
+/* NAV */
+
+/* HEADER */
+.cafeFundo {
+    background: radial-gradient(80.87% 481.72% at 15.17% 35.76%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.36) 51.88%, rgba(0, 0, 0, 0.16) 100%),
+        url('imagens/CafeFundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 120px;
+}
+
+.TituloCafFund {
+    color: white;
+    max-width: 589px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.SubCafFund {
+    color: white;
+    max-width: 514px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.btVenhaConhecer {
+    border: none;
+    cursor: pointer;
+    background-color: #8F542E;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btVenhaConhecer:hover {
+    background-color: #A66A3D;
+}
+
+.flecha {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    top: 15px;
+}
+
+/* HEADER */
+
+/* SOBRE NOS */
+.sobreN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #F9F4EF;
+    margin-bottom: 10dvh;
+    height: 100dvh;
+}
+
+.conteudo-sobreN {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*max-width: 1200px;*/
+    width: 100%;
+    padding: 20px;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.texto-sobreN {
+    flex: 1;
+}
+
+.texto-sobreN h1 {
+    color: #1F0C00;
+    margin-bottom: 20px;
+    margin-top: -35px;
+
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+
+.texto-sobreN p {
+    font-size: 18px;
+    color: #1F0C00;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btFaleConosco {
+    border: none;
+    cursor: pointer;
+    background-color: #8F542E;
+    color: white;
+    padding: 18px 32px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 35px;
+}
+
+.btFaleConosco:hover {
+    background-color: #724327;
+}
+
+.flecha {
+    width: 16px;
+    height: 16px;
+}
+
+.imagem-sobreN {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.imagem-sobreN img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* SOBRE NOS */
+
+/* ONDA DE CAFÉ */
+.ajusteOnda {
+    width: 100%;
+    height: 30dvh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 193dvh;
+}
+
+.ondaCafe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ONDA DE CAFÉ */
+
+/* CARROSSEL */
+.cafeteria {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #8F542E;
+}
+
+.cafeteria h1 {
+    font-size: 36px;
+    font-family: Cormorant Garamond;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #B2784A;
+    padding-bottom: 5px;
+    letter-spacing: 2%;
+    display: inline-block;
+    width: auto;
+    font-weight: 700;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+    flex: 0 0 calc(33.333% - 20px);
+    padding: 20px;
+    text-align: left;
+    min-height: 400px;
+}
+
+.card img {
+    width: 313px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #8F542E;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botões de navegação */
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 270%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 54px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.prev-btn {
+    left: 24px;
+}
+
+.next-btn {
+    right: 38px;
+}
+
+
+
+/* CARROSSEL */
+
+/* CONTATO */
+.contato-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contato-section h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5em;
+    color: #57290B;
+    margin-bottom: 60px;
+    text-align: left;
+    margin-left: -340px;
+}
+
+.container-contato {
+    display: flex;
+    /*max-width: 1200px;*/
+    background-color: #fff;
+    box-shadow: 0 6px 12px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contato-info-area {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px;
+    width: 60%;
+}
+
+.contato-info-area h2 {
+    margin-bottom: 20px;
+}
+
+.contato-info-area ul {
+    list-style-type: none;
+}
+
+.contato-info-area ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+.contato-info-area ul li img {
+    margin-right: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+.contato-info-area ul li i {
+    margin-right: 10px;
+}
+
+.logo-area {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo-area img {
+    width: 10dvh;
+}
+
+.logo-area p {
+    margin-top: 10px;
+    font-size: 24px;
+    font: Cormorant Garamond;
+}
+
+.formulario-contato {
+    padding: 50px;
+    width: 80%;
+    background-color: #F5F3ED;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-contato button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 16px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+    background-color: #A0522D;
+}
+
+.formulario-contato button img {
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.detForm {
+    border-bottom: 2px solid #B2784A;
+    margin: 20px 0;
+    list-style-type: none;
+    height: 0;
+    width: 100%;
+}
+
+/* CONTATO */
+
+/* RODAPÉ */
+.footer-contato {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #57290B;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-contato p {
+    font-size: 0.9em;
+    margin: 0;
+    list-style: Text-Footer-Mob;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFDAB8;
+
+}
+
+/* RODAPÉ */
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 830px) {
+    .social-media-section {
+        display: none;
+    }
+}
+ @media (min-width: 1920px){
+    .tSpan {
+        width: 22dvw;
+        height: 22px;
+        background-color: #FBC9A8;
+        position: absolute;
+        left: 29.5dvw;
+        margin-top: 28px;
+    }
+ }
+
+@media (min-width: 1366px) {
+
+    /* NAV */
+    .navbar {
+        padding: 30px 100px;
+        height: 120px;
+    }
+
+    .nav-links li {
+        margin-right: 40px;
+    }
+
+    .btnSobreNos p,
+    .btnCafeteria p,
+    .btnContato p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo p {
+        font-size: 22px;
+    }
+
+    .logo-img {
+        width: 60px;
+        height: 70px;
+    }
+
+    .btnTelefone p {
+        font-size: 20px;
+    }
+
+    .telefone {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* NAV */
+
+    .social-media-section {
+        display: none;
+    }
+
+    .ajusteOnda {
+        top: 100%;
+        height: 14dvw;
+        margin-bottom: -200px;
+        top: -10dvh;
+        position: relative;
+    }
+
+    .ondaCafe {
+        width: 100dvw;
+        height: 106%;
+        object-fit: cover;
+    }
+
+    .tSpan {
+        width: 22dvw;
+        height: 22px;
+        background-color: #FBC9A8;
+        position: absolute;
+        left: 70dvw;
+        margin-top: 28px;
+    }
+
+    .detCont {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .card img {
+        width: 313px;
+        height: 270px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: none;
+        flex: 0 0 calc(33.333% - 20px);
+        padding: 8px;
+        text-align: center;
+        min-height: 200px;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .carousel {
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+}
+
+@media (max-width: 829px) {
+
+    /* NAV */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        position: sticky;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: auto;
+        padding-left: 25px;
+    }
+
+    .logo img {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .logo p {
+        margin: 0;
+        font-size: 20px;
+        left: 124px;
+    }
+
+    .navbar p {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* NAV */
+
+    /* HEADER */
+    .cafeFundo {
+        background-size: cover;
+        background-position: right center;
+        height: auto;
+        min-height: 265px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .TituloCafFund {
+        font-size: 30px;
+        line-height: 46px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .btVenhaConhecer {
+        padding: 12px 24px;
+        font-size: 14px;
+        gap: 6px;
+    }
+
+    .flecha {
+        width: 16px;
+        height: 16px;
+        margin-left: 4px;
+    }
+
+    .SubCafFund {
+        display: none;
+    }
+
+    /* HEADER */
+
+    /* SOBRE NÓS */
+    .sobreN {
+        padding: 30px 0;
+        height: auto;
+        margin-bottom: -15dvh;
+    }
+
+    .conteudo-sobreN {
+        margin-left: 20px;
+    }
+
+    .texto-sobreN {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .texto-sobreN h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: 0;
+    }
+
+    .texto-sobreN p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #1F0C00;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .btFaleConosco {
+        display: flex;
+        margin-top: 38px;
+        margin-bottom: 60px;
+        padding: 14px 24px;
+        font-size: 14px;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 16%;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .flecha {
+        width: 14px;
+        height: 14px;
+    }
+
+    .imagem-sobreN {
+        display: none;
+    }
+
+    .testespan {
+        width: 142px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .detsobre {
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    /* SOBRE NÓS */
+
+    /* ONDA DE CAFÉ */
+
+    .ajusteOnda {
+        top: 100%;
+        height: 30dvw;
+        margin-bottom: 40px;
+        top: 20dvw;
+        position: relative;
+    }
+
+    .ondaCafe {
+        width: 100dvw;
+        height: 106%;
+        object-fit: cover;
+    }
+
+    /* ONDA DE CAFÉ */
+
+    /* CARROSSEL */
+    .carousel {
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .card {
+        flex: 0 0 15%;
+        padding: 16px;
+        margin-left: 18px;
+    }
+
+    .card img {
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    /* CARROSSEL */
+
+    /* CONTATO */
+    .contato-section {
+        padding: 30px 0;
+    }
+
+    .contato-section h1 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-left: -12dvw;
+        text-align: center;
+    }
+
+    .container-contato {
+        display: flex;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 75%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .formulario-contato {
+        padding: 20px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .formulario-contato input,
+    .formulario-contato textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .formulario-contato button {
+        font-size: 12px;
+        padding: 16px 10px;
+    }
+
+    .logo-area {
+        display: none;
+    }
+
+    .contato-info-area {
+        display: none;
+    }
+
+    .tSpan {
+        width: 60dvw;
+        height: 22px;
+        background-color: #FBC9A8;
+        position: absolute;
+        left: 7dvh;
+        margin-top: 12px;
+    }
+
+    .detCont {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .social-media-section {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .social-media-section h2 {
+        font-size: 24px;
+        color: #1F0C00;
+        margin-bottom: 20px;
+        font-family: Open Sans;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* CONTATO */
+
+    .footer-contato {
+        padding: 20px 35px;
+        flex-direction: column;
+        align-items: left;
+    }
+
+
+}
